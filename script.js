@@ -4,8 +4,17 @@ var generateBtn = document.querySelector("#generate");
 //genetate password function. var results will hold the password. 
 function generatePassword() {
   var result = ""
-  var passWordLength = prompt("how many characters should one choose? The answer is hidden between 8 and 128. Choose wisely.")
+  var passWordLength = prompt("Plese choose a password with at least 8 but no meore than 128 characters.")
+  
   console.log(passWordLength)
+  if (passWordLength >= 8 && passWordLength <= 128) {
+    console.log("true")
+  }
+  else {
+    window.alert("PAss word must be between 8 and 128 chaacters");
+    return
+    
+  }
 
   // choose the type of characters
   var addUpperCase = confirm("Do you want to add uppercase?")
@@ -63,7 +72,7 @@ else {
 
 // Displays the contents of the selected array after choosing.
 console.log(selectedArray)
-
+   
 
   
 // this is the for loop that randomizes the collective array.
@@ -91,3 +100,9 @@ function writePassword() {
 
 // Add event listener to generate button. Tells function writePassword when button has been clicked line 67
 generateBtn.addEventListener("click", writePassword);
+
+
+
+
+
+
