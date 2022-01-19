@@ -11,7 +11,7 @@ function generatePassword() {
     console.log("true")
   }
   else {
-    window.alert("PAss word must be between 8 and 128 chaacters");
+    window.alert("Pass word must be between 8 and 128 chaacters");
     return
     
   }
