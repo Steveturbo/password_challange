@@ -20,5 +20,4 @@ The Js file has five arrays, two sets of if statements, a for loop, a random num
 ## Ackknowledgements
  I worked on this generator with my tutor Joem and my son Elijah both of whom were a great help.
 
- ![]file:///C:/Users/steve/Desktop/weekly_projects/password_challange/index.html
-  
+ ![]https://steveturbo.github.io/password_challange/
